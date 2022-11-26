@@ -1,0 +1,13 @@
+train: /Users/sahilapte/Documents/SUrgery.v1i.yolov5pytorch
+val: /Users/sahilapte/Documents/SUrgery.v1i.yolov5pytorch
+test: /Users/sahilapte/Documents/SUrgery.v1i.yolov5pytorch
+
+nc: 4
+names: ['0', '1', '2', '3']
+
+roboflow:
+  workspace: project
+  project: surgery-q7w9u
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/surgery-q7w9u/dataset/1
